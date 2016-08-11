@@ -1,0 +1,35 @@
+<md-sidenav-layout fullscreen>
+  <md-sidenav #sidenav mode="side" id="mainSideNav">
+    <md-toolbar align="end">
+      <md-icon>menu</md-icon>
+      <h3>Navigation</h3>
+      <button md-icon-button (click)="sidenav.close()">
+        <md-icon>close</md-icon>
+      </button>
+    </md-toolbar>
+    <md-content>
+      <md-card md-whiteframe-1dp>
+        <md-card-title>Himanshu Shekhar</md-card-title>
+        <md-card-content></md-card-content>
+      </md-card>
+      <md-nav-list>
+          <md-list-item>
+            <md-icon>close</md-icon>
+          </md-list-item>
+      </md-nav-list>
+    </md-content>
+  </md-sidenav>
+
+  <md-toolbar color="primary" id="top-navbar">
+    <div class="nav-items">
+      <button md-icon-button (click)="sidenav.open()">
+        <md-icon>menu</md-icon>
+      </button>
+      <span>Primary Toolbar</span>
+    </div>
+    <div class="nav-items">
+      <md-icon>code</md-icon>
+      <md-icon>favorite</md-icon>
+    </div>
+  </md-toolbar>
+</md-sidenav-layout>

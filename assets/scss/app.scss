@@ -1,0 +1,12 @@
+@import "theme-default.scss";
+@import "navbar.scss";
+
+.layout-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.layout-column {
+  display: flex;
+  flex-direction: column;
+}

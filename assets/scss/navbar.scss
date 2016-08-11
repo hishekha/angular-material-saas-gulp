@@ -1,0 +1,20 @@
+#mainSideNav {
+  md-toolbar {
+    display: flex;
+    justify-content: space-between;
+    background: $secondryBgColor;
+    h3 {
+      flex: 1;
+      text-align: left;
+      font-weight: normal;
+      color: $secondryTitleColor;
+      font-style: italic;
+    }
+  }
+}
+
+#top-navbar {
+  md-toolbar-row {
+    justify-content: space-between;
+  }
+}
